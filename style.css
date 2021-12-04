@@ -1,0 +1,191 @@
+html{
+    overflow-x: hidden;
+    overscroll-behavior-y: none;
+}
+
+#logo{
+    font-family: 'Estonia', cursive;
+    font-weight: bold;
+    font-size: 47px;
+    display: inline;
+    height: 50px;
+    width: 70px;
+}
+.logo a{
+    color: black;
+    text-decoration: none;
+}
+.navbar{
+    padding-left: 30px;
+    padding-top: 30px;
+    display: inline-block;
+    background-color: #24274B;
+    position:  relative;
+top: -20px;
+left: -10px;
+width: 100%;
+z-index: 2;
+}
+.navbar li {
+    text-align: center;
+    display: inline-block;
+    width:235px;
+    font-size: 20px;
+}
+.navbar li a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+
+}
+
+svg {
+    color: black;
+    fill: currentColor;
+    width: 15px;
+    height: 15px;
+    padding: 0px;
+  }
+.navbar ul li a:hover{
+    color:rgb(0, 131, 136) ;
+    /* background-color: rgb(0, 131, 136); */
+    /* text-decoration: underline; */
+    border-radius: 25px;
+}
+.proof{
+    text-align: center;
+    margin-top: 40px;
+}
+/* Services Section  */
+.services{
+    position: relative;
+    top: -300px;
+
+}
+#services{
+    margin: 29px;
+    display: flex;
+}
+#services .box {
+    text-align: center;
+    height: 350px;
+    width: 340px;
+    padding: 10px 10px;
+    margin: auto;
+    /* border:2px solid #00698a; */
+    border-radius: 15px;
+    background: url(box.jpg) no-repeat center center;
+    color: white;
+}
+#services .box img{
+    display: block;
+    /* border:2px solid #00698a; */
+    width: 192px;
+    height: 128px;
+    margin: auto;
+}
+.content{
+    background-color: white;
+    opacity: 0.69;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    height: 350px;
+    width: 450px;
+    
+}
+.tower {
+    z-index: -1;
+    position: relative;
+    top: -320px;
+    right: -102px;
+    border-radius: 5px;
+    color: white;
+    background: url('bg.jpeg') no-repeat center center;
+    padding-top: 3px;
+    text-align: center;
+    font-size: 60px;
+    margin: auto;
+    display: block;
+    width: 1010px;
+    height: 500px;
+}
+.accuview{
+    opacity: 49;
+    font-family: 'PT Serif', serif;
+    color: #163962;
+    font-size: 50px;
+}
+.water{
+    margin-top: -30px;
+}
+.img{
+    display: inline-block;
+    height: 15vw;
+    width: 30vw;
+}
+.company{
+    color: black;
+    text-align: center;
+    height: 375px;
+    width: 100%;
+    /* border: 2px solid black; */
+    position: relative;
+    top: -100px;
+    background-color: #f6f9ff;
+}
+.company img{
+    display: inline;
+    margin: 50px;
+    height: 100px;
+    width: 10%;
+}
+footer{
+    position: relative;
+    top: 50px;
+}
+.about{
+    display:block;
+    background-color: black;
+    position: relative;
+    top:-220px;
+    height: 100vh;
+    color: white;
+}
+.logo1{
+    color: black;
+    background-color: white;
+    font-family: 'Estonia', cursive;
+    font-weight: bold;
+    font-size: 47px;
+    /* border: 2px solid red; */
+    display: inline-flex;
+    height: 50px;
+    width: 100px;
+    margin: 0px;
+}
+.box{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 15px;
+    padding:0px 100px ;
+}
+.item{
+    display: flex;
+    font-size: 30px;
+    width: 17%;
+    
+    margin: 20px;
+    padding: auto;
+    border: 2px solid white;
+}
+.line{
+    text-align: center;
+    position: relative;
+    top: 111px;
+}
+.white{
+    color: white;
+}
